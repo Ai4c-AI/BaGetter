@@ -14,17 +14,17 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BaGetter.Aliyun\BaGetter.Aliyun.csproj" />
-    <ProjectReference Include="..\BaGetter.Aws\BaGetter.Aws.csproj" />
-    <ProjectReference Include="..\BaGetter.Azure\BaGetter.Azure.csproj" />
-    <ProjectReference Include="..\BaGetter.Core\BaGetter.Core.csproj" />
-    <ProjectReference Include="..\BaGetter.Database.MySql\BaGetter.Database.MySql.csproj" />
-    <ProjectReference Include="..\BaGetter.Database.PostgreSql\BaGetter.Database.PostgreSql.csproj" />
-    <ProjectReference Include="..\BaGetter.Database.Sqlite\BaGetter.Database.Sqlite.csproj" />
-    <ProjectReference Include="..\BaGetter.Database.SqlServer\BaGetter.Database.SqlServer.csproj" />
-    <ProjectReference Include="..\BaGetter.Gcp\BaGetter.Gcp.csproj" />
-    <ProjectReference Include="..\BaGetter.Web\BaGetter.Web.csproj" />
-    <ProjectReference Include="..\BaGetter.Protocol\BaGetter.Protocol.csproj" />
+    <ProjectReference Include="..\Infrastructure\BaGetter.Core\BaGetter.Core.csproj" />
+    <ProjectReference Include="..\Infrastructure\BaGetter.Protocol\BaGetter.Protocol.csproj" />
+    <ProjectReference Include="..\Infrastructure\BaGetter.Web\BaGetter.Web.csproj" />
+    <ProjectReference Include="..\ObjectStorages\BaGetter.Aliyun\BaGetter.Aliyun.csproj" />
+    <ProjectReference Include="..\ObjectStorages\BaGetter.Aws\BaGetter.Aws.csproj" />
+    <ProjectReference Include="..\ObjectStorages\BaGetter.Azure\BaGetter.Azure.csproj" />
+    <ProjectReference Include="..\ObjectStorages\BaGetter.Gcp\BaGetter.Gcp.csproj" />
+    <ProjectReference Include="..\Databases\BaGetter.Database.MySql\BaGetter.Database.MySql.csproj" />
+    <ProjectReference Include="..\Databases\BaGetter.Database.PostgreSql\BaGetter.Database.PostgreSql.csproj" />
+    <ProjectReference Include="..\Databases\BaGetter.Database.Sqlite\BaGetter.Database.Sqlite.csproj" />
+    <ProjectReference Include="..\Databases\BaGetter.Database.SqlServer\BaGetter.Database.SqlServer.csproj" />
   </ItemGroup>
 
 </Project>

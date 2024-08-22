@@ -15,10 +15,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\BaGetter\BaGetter.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Compile Update="TestData\TestData.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
@@ -38,6 +34,10 @@
     <EmbeddedResource Include="TestData\TestData.1.2.3.snupkg">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\BaGetter\BaGetter.csproj" />
   </ItemGroup>
 
 </Project>

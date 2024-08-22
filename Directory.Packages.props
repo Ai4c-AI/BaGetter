@@ -22,10 +22,11 @@
     <PackageVersion Include="NuGet.Protocol" Version="6.9.1" />
     <PackageVersion Include="NuGet.Versioning" Version="6.9.1" />
     <PackageVersion Include="System.Reflection.Metadata" Version="8.0.0" />
-    <PackageVersion Include="System.Text.Json" Version="8.0.3" />
+    <PackageVersion Include="System.Text.Json" Version="8.0.4" />
     <PackageVersion Include="Newtonsoft.Json" Version="13.0.3" />
     <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.9.0" />
     <PackageVersion Include="Moq" Version="4.20.70" />
+    <PackageVersion Include="Tencent.QCloud.Cos.Sdk" Version="5.4.40" />
     <PackageVersion Include="xunit" Version="2.7.0" />
     <PackageVersion Include="xunit.runner.visualstudio" Version="2.5.7" />
     <PackageVersion Include="Microsoft.AspNetCore.Mvc.Testing" Version="8.0.3" />

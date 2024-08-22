@@ -16,10 +16,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BaGetter.Core\BaGetter.Core.csproj" />
+    <Compile Remove="Search/*.cs" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Remove="Search/*.cs" />
+    <ProjectReference Include="..\..\Infrastructure\BaGetter.Core\BaGetter.Core.csproj" />
   </ItemGroup>
 </Project>

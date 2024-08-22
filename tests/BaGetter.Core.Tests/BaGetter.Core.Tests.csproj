@@ -5,7 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\BaGetter.Core\BaGetter.Core.csproj" />
+    <ProjectReference Include="..\..\src\Infrastructure\BaGetter.Core\BaGetter.Core.csproj" />
   </ItemGroup>
 
 </Project>
