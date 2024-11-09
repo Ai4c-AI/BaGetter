@@ -1,10 +1,12 @@
+using BaGetter.Core.Configuration;
+
 namespace BaGetter.Core;
 
 public class BaGetterOptions
 {
     /// <summary>
     /// The API Key required to authenticate package
-    /// operations. If empty, package operations do not require authentication.
+    /// operations. If <see cref="ApiKeys"/> and  <see cref="ApiKey"/> are not set, package operations do not require authentication.
     /// </summary>
     public string ApiKey { get; set; }
 
@@ -47,6 +49,12 @@ public class BaGetterOptions
     /// </summary>
     public uint MaxPackageSizeGiB { get; set; } = 8;
 
+    /// <summary>
+    /// If this is set to a value, it will limit the number of versions that can be pushed for a package.
+    /// the older versions will be deleted.
+    /// </summary>
+    public uint? MaxVersionsPerPackage { get; set; } = null;
+
     public DatabaseOptions Database { get; set; }
 
     public StorageOptions Storage { get; set; }
@@ -58,4 +66,6 @@ public class BaGetterOptions
     public HealthCheckOptions HealthCheck { get; set; }
 
     public StatisticsOptions Statistics { get; set; }
+
+    public NugetAuthenticationOptions Authentication { get; set; }
 }
